@@ -1,0 +1,185 @@
+.container {
+    width: 100%;
+    height: 160%;
+    position: absolute;
+    background: #f9fafb;
+}
+
+.add {
+    position: absolute;
+    width: 850px;
+    height: 1550px;
+    left: 50%;
+    border: 1px solid #e5e7eb;
+
+    margin-left: -400px;
+    margin-top: 80px;
+    background: #ffffff;
+}
+.title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 32px;
+    margin-left: 20px;
+    color: #48627d;
+}
+.if {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    margin-left: 20px;
+    color: #111827;
+}
+.txt {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 20px;
+    color: #111827;
+}
+.txt1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 20px;
+    color: #111827;
+}
+.ip {
+    width: 800px;
+    height: 39px;
+
+    background: #f9fafb;
+    margin-left: 20px;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    /* Grey/Grey 90 */
+
+    color: #111827;
+}
+.btnCancel {
+    width: 118px;
+    height: 54px;
+
+    margin-left: 20px;
+
+    float: right;
+    background: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-right: 20px;
+    /* identical to box height, or 150% */
+
+    /* Grey/Grey 90 */
+
+    color: #111827;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+.btnChange {
+    width: 150px;
+    height: 54px;
+
+    margin-left: 20px;
+
+    float: right;
+    background: violet;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-right: 20px;
+    /* identical to box height, or 150% */
+
+    /* Grey/Grey 90 */
+
+    color: #111827;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+.btnAdd {
+    width: 119px;
+    height: 54px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* Grey/Grey 0 */
+
+    color: #ffffff;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #7c3aed;
+    border-radius: 8px;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+    margin-left: 60px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th {
+    background-color: #bcddfe;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 185% */
+
+    /* Grey/Grey 90 */
+
+    color: #111827;
+}
+.fl {
+    display: flex;
+}
+.r {
+    width: 50%;
+    float: right;
+}
+.l {
+    width: 50%;
+    float: left;
+}
